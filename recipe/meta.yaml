@@ -1,5 +1,5 @@
 {% set name = "specutils" %}
-{% set version = "0.2.2" %}
+{% set version = "0.4b2" %}
 {% set hash_type = "sha256" %}
 {% set hash_value = "d5536a67718887cf7778a4c35744b25c97f6c0efe0ccf0ea7b4b5d7200572516" %}
 
