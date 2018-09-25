@@ -1,17 +1,18 @@
 About specutils
 ===============
 
-Home: http://specutils.astropy.org/
+Home: http://specutils.readthedocs.io/
 
-Package license: BSD 3-clause
+Package license: BSD
 
 Feedstock license: BSD 3-Clause
 
 Summary: Astropy affiliated package for astronomical spectral operations.
 
 The specutils package implements base classes and utilities for
-interacting with astronomical spectra in Python and the Astropy project.
-
+interacting with astronomical spectra in Python and the Astropy
+project.  It is intended for eventual merger with the `astropy`
+package, but for now is being developed independently.
 
 Current build status
 ====================
