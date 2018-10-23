@@ -14,19 +14,20 @@ source:
   '{{ hash_type }}': '{{ hash_value }}'
 
 build:
+  python: noarch
   number: 0
   script: python setup.py install --offline --single-version-externally-managed --record=record.txt
 
 requirements:
   host:
-    - python
+    - python >=3
     - setuptools
     - astropy
     - six
     - gwcs
     - scipy
   run:
-    - python
+    - python >=3
     - astropy
     - six
     - gwcs
