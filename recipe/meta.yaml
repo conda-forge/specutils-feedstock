@@ -1,8 +1,8 @@
 {% set name = "specutils" %}
-{% set version = "0.4" %}
+{% set version = "0.5" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "2859ce90eeab4eb8d80427627fc55951728f84d6c3fb5429597dba38af569dfc" %}
+{% set hash_value = "04760a73c105bfaeffde4b6493efad07b7d47a41e8209f6479df3f552d97c63c" %}
 
 package:
   name: '{{ name|lower }}'
@@ -15,7 +15,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python setup.py install --offline --single-version-externally-managed --record=record.txt
 
 requirements:
