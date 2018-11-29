@@ -1,8 +1,8 @@
 {% set name = "specutils" %}
-{% set version = "0.5" %}
+{% set version = "0.5.1" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "04760a73c105bfaeffde4b6493efad07b7d47a41e8209f6479df3f552d97c63c" %}
+{% set hash_value = "1ae785c593bf0bab5eb5c715156ce2e364c2ec1e1a1068739f15e9ce05cb0c02" %}
 
 package:
   name: '{{ name|lower }}'
