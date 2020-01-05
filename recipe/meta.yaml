@@ -50,7 +50,7 @@ test:
 
 about:
   home: http://specutils.readthedocs.io/
-  license: BSD
+  license: BSD-3-clause
   license_family: BSD
   license_file: 'LICENSE.rst'
   summary: Astropy affiliated package for astronomical spectral operations.
