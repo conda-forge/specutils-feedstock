@@ -18,15 +18,15 @@ requirements:
   host:
     - python >=3
     - setuptools
-    - astropy
+    - astropy >=4
     - six
-    - gwcs
+    - gwcs >=0.12
     - scipy
   run:
     - python >=3
-    - astropy
+    - astropy >=4
     - six
-    - gwcs
+    - gwcs >=0.12
     - scipy
 
 test:
@@ -38,10 +38,7 @@ test:
     - specutils.io.default_loaders
     - specutils.manipulation
     - specutils.spectra
-    - specutils.tests
     - specutils.utils
-    - specutils.wcs
-    - specutils.wcs.adapters
 
 about:
   home: http://specutils.readthedocs.io/
