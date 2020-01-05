@@ -3,7 +3,7 @@ About specutils
 
 Home: http://specutils.readthedocs.io/
 
-Package license: BSD
+Package license: BSD-3-clause
 
 Feedstock license: BSD 3-Clause
 
