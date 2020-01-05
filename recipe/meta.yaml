@@ -1,18 +1,13 @@
 {% set name = "specutils" %}
 {% set version = "0.7" %}
-{% set file_ext = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash_value = "c885ee7b41c9f9f663435b51850908dd5d178391ac3d9d271568e25d38bfd826" %}
-
 
 package:
   name: '{{ name|lower }}'
   version: '{{ version }}'
 
 source:
-  fn: '{{ name }}-{{ version }}.{{ file_ext }}'
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
-  '{{ hash_type }}': '{{ hash_value }}'
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: c885ee7b41c9f9f663435b51850908dd5d178391ac3d9d271568e25d38bfd826
 
 build:
   noarch: python
@@ -56,8 +51,8 @@ about:
   summary: Astropy affiliated package for astronomical spectral operations.
   description: "The specutils package implements base classes and utilities for\r\ninteracting with astronomical spectra in Python and the Astropy\r\nproject.  It is intended for eventual merger with the\
     \ `astropy`\r\npackage, but for now is being developed independently."
-  doc_url: ''
-  dev_url: ''
+  doc_url: http://specutils.readthedocs.io/
+  dev_url: https://github.com/astropy/specutils
 
 extra:
   recipe-maintainers:
