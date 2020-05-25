@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - python >=3
-    - setuptools
+    - pip
     - astropy >=4
     - astropy-helpers >=4
     - gwcs >=0.12
