@@ -8,11 +8,12 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 69da591cba1f0501c6a13bb705fa1fb5e9bab748d0220e5996342caa4d5737c9
+  patches:
+    - setup.cfg.patch
 
 build:
   noarch: python
   number: 0
-  script: python setup.py install --offline --single-version-externally-managed --record=record.txt
 
 requirements:
   host:
@@ -58,3 +59,4 @@ extra:
     - nmearl
     - crawfordsm
     - keflavich
+    - eteq

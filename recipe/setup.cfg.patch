@@ -1,0 +1,13 @@
+diff --git a/setup.cfg b/setup.cfg
+index a34884a..c7231ff 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -26,6 +26,8 @@ addopts = --remote-data=any --doctest-rst
+ 
+ [ah_bootstrap]
+ auto_use = True
++auto_upgrade = False
++path = astropy-helpers-4.0.1.tar.gz
+ 
+ [pycodestyle]
+ # E101 - mix of tabs and spaces
