@@ -19,14 +19,14 @@ requirements:
     - python >=3
     - setuptools
     - astropy >=4
-    - six
+    - astropy-helpers >=4
     - gwcs >=0.12
     - scipy
   run:
     - python >=3
     - astropy >=4
-    - six
     - gwcs >=0.12
+    - asdf >=2.5
     - scipy
 
 test:
@@ -42,7 +42,7 @@ test:
 
 about:
   home: http://specutils.readthedocs.io/
-  license: BSD-3-clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
   summary: Astropy affiliated package for astronomical spectral operations.
