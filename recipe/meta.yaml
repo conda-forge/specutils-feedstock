@@ -1,32 +1,34 @@
 {% set name = "specutils" %}
-{% set version = "0.7" %}
+{% set version = "1.0" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c885ee7b41c9f9f663435b51850908dd5d178391ac3d9d271568e25d38bfd826
+  sha256: 69da591cba1f0501c6a13bb705fa1fb5e9bab748d0220e5996342caa4d5737c9
+  patches:
+    - setup.cfg.patch
 
 build:
   noarch: python
   number: 0
-  script: python setup.py install --offline --single-version-externally-managed --record=record.txt
 
 requirements:
   host:
     - python >=3
-    - setuptools
+    - pip
     - astropy >=4
-    - six
+    - astropy-helpers >=4
     - gwcs >=0.12
     - scipy
+    - wget
   run:
     - python >=3
     - astropy >=4
-    - six
     - gwcs >=0.12
+    - asdf >=2.5
     - scipy
 
 test:
@@ -42,12 +44,12 @@ test:
 
 about:
   home: http://specutils.readthedocs.io/
-  license: BSD-3-clause
+  license: BSD-3-Clause
   license_family: BSD
-  license_file: 'LICENSE.rst'
+  license_file: LICENSE.rst
   summary: Astropy affiliated package for astronomical spectral operations.
-  description: "The specutils package implements base classes and utilities for\r\ninteracting with astronomical spectra in Python and the Astropy\r\nproject.  It is intended for eventual merger with the\
-    \ `astropy`\r\npackage, but for now is being developed independently."
+  description: "The specutils package implements base classes and utilities for\r\ninteracting with astronomical spectra in Python and the Astropy\r\nproject.  It\
+    \ is intended for eventual merger with the `astropy`\r\npackage, but for now is being developed independently."
   doc_url: http://specutils.readthedocs.io/
   dev_url: https://github.com/astropy/specutils
 
@@ -58,3 +60,4 @@ extra:
     - nmearl
     - crawfordsm
     - keflavich
+    - eteq
