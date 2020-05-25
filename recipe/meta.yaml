@@ -23,6 +23,7 @@ requirements:
     - astropy-helpers >=4
     - gwcs >=0.12
     - scipy
+    - wget
   run:
     - python >=3
     - astropy >=4
