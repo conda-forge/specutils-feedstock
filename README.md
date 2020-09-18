@@ -3,9 +3,9 @@ About specutils
 
 Home: http://specutils.readthedocs.io/
 
-Package license: BSD-3-clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Astropy affiliated package for astronomical spectral operations.
 
@@ -121,6 +121,7 @@ Feedstock Maintainers
 
 * [@bsipocz](https://github.com/bsipocz/)
 * [@crawfordsm](https://github.com/crawfordsm/)
+* [@eteq](https://github.com/eteq/)
 * [@keflavich](https://github.com/keflavich/)
 * [@mwcraig](https://github.com/mwcraig/)
 * [@nmearl](https://github.com/nmearl/)
