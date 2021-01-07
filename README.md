@@ -3,11 +3,15 @@ About specutils
 
 Home: http://specutils.readthedocs.io/
 
-Package license: BSD-3-clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/specutils-feedstock/blob/master/LICENSE.txt)
 
 Summary: Astropy affiliated package for astronomical spectral operations.
+
+Development: https://github.com/astropy/specutils
+
+Documentation: http://specutils.readthedocs.io/
 
 The specutils package implements base classes and utilities for
 interacting with astronomical spectra in Python and the Astropy
@@ -121,6 +125,7 @@ Feedstock Maintainers
 
 * [@bsipocz](https://github.com/bsipocz/)
 * [@crawfordsm](https://github.com/crawfordsm/)
+* [@eteq](https://github.com/eteq/)
 * [@keflavich](https://github.com/keflavich/)
 * [@mwcraig](https://github.com/mwcraig/)
 * [@nmearl](https://github.com/nmearl/)
