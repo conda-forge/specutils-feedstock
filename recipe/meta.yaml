@@ -19,7 +19,6 @@ requirements:
     - python >=3.6
     - pip
     - setuptools_scm
-    - astropy >=4.1
   run:
     - python >=3.6
     - astropy >=4.1
