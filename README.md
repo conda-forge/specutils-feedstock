@@ -14,9 +14,10 @@ Development: https://github.com/astropy/specutils
 Documentation: http://specutils.readthedocs.io/
 
 The specutils package implements base classes and utilities for
-interacting with astronomical spectra in Python and the Astropy
-project.  It is intended for eventual merger with the `astropy`
-package, but for now is being developed independently.
+interacting with astronomical spectra in Python and the Astropy project.
+It is intended for eventual merger with the `astropy` package, but for now
+is being developed independently.
+
 
 Current build status
 ====================
@@ -45,6 +46,7 @@ Installing `specutils` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `specutils` can be installed with:
