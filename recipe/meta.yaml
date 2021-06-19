@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - setuptools_scm
   run:
-    - python >=3.6
+    - python >=3.7
     - astropy >=4.1
     - gwcs !=0.16
     - asdf >=2.5
