@@ -22,8 +22,9 @@ requirements:
   run:
     - python >=3.7
     - astropy >=4.1
-    - gwcs !=0.16
+    - gwcs >=0.17
     - asdf >=2.5
+    - ndcube >=2.0
     - scipy
 
 test:
