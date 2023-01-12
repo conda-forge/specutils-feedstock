@@ -54,6 +54,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - rosteen
     - mwcraig
     - bsipocz
     - nmearl
