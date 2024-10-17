@@ -1,5 +1,5 @@
 {% set name = "specutils" %}
-{% set version = "1.17.0" %}
+{% set version = "1.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fcec212641bfc17f0ce9d27a8c1c351c2183f592f4357c44b5a2e177614cbbc2
+  sha256: c733c464560587cffb5f65d6c2d09e1e93d77d278fd72c6d6a78b130df57dc99
 
 build:
   noarch: python
