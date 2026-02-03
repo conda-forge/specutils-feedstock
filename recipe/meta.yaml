@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "specutils" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ebd7db759bca6884250f7b9b4071d995fab639896c672c66b706c98a15da9efd
+  sha256: f7986afd835b38b83fd510e9022ce41e576785b48bb83fe3759dedcbf9bcff8f
 
 build:
   noarch: python
@@ -25,9 +25,9 @@ requirements:
     - numpy >=1.24
     - scipy >=1.14
     - python >={{ python_min }}
-    - astropy-base >=7.0
-    - gwcs >=0.22
-    - asdf-astropy >=0.5
+    - astropy-base >=7.2
+    - gwcs >=0.25.1
+    - asdf-astropy >=0.8
     - asdf >=3.3.0
     - ndcube >=2.0
 
